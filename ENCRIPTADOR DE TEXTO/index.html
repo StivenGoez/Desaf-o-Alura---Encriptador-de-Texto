@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <title> CIFRADO </title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logo-alura" src="img/Logo.png" alt="logo alura">
+            <h1 class="titulo"> ENCRIPTADOR DE TEXTO </h1>
+        </div>     
+    </header>
+
+    <main>
+        <div class="main">
+
+            <div class="left">                 
+                <textarea id="ingresoTexto" class="ingrese-mensaje" placeholder="Escribe tu texto aquí"></textarea>
+
+                <div class="left-footer">
+                    <span> <img class="letras" src="img/letras.png" alt=""></span>
+                    <div class="left-botones">    
+                        <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="right" class="right">
+                <img id="imagenPersona" class="imagen-persona" src="img/imagen.png" alt="imagen persona burbuja">
+                <textarea id="mensajeFinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="right-info">Ingresa el texto que desees encriptar o desencriptar</p>
+                
+                <button id="botonCopiar" class="boton-copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p> <strong class="pie-de-pagina"> Desarrollado por LUPZE JS </strong> </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
